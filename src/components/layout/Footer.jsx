@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, ArrowRight, Globe, Linkedin, Facebook } from "lucide-react";
+import { WHATSAPP_URL, WhatsAppIcon } from "../shared/WhatsAppButton";
 
 const footerServices = [
   { label: "Sea Freight",       path: "/services/sea-freight" },
@@ -44,6 +45,7 @@ export default function Footer() {
   const socialLinks = [
     { label: "LinkedIn", href: "https://www.linkedin.com/company/tactfreight/", icon: Linkedin },
     { label: "Facebook", href: "https://www.facebook.com/share/1bieXqfQ9J/?mibextid=wwXIfr", icon: Facebook },
+    { label: "WhatsApp", href: WHATSAPP_URL, icon: WhatsAppIcon },
   ];
 
   return (
@@ -181,7 +183,7 @@ export default function Footer() {
                 >
                   <span
                     className={`flex h-10 w-10 items-center justify-center rounded-lg text-white group-hover:scale-105 transition-transform ${
-                      label === "LinkedIn" ? "bg-[#0A66C2]" : "bg-[#1877F2]"
+                      label === "LinkedIn" ? "bg-[#0A66C2]" : label === "Facebook" ? "bg-[#1877F2]" : "bg-[#25D366]"
                     }`}
                   >
                     <Icon className="relative h-5 w-5" />
