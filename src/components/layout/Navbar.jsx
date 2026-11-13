@@ -194,7 +194,7 @@ export default function Navbar() {
           {/* CTA + mobile toggle */}
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <a
-              href="https://tactfreight.net"
+              href="https://tactfreight.net/ciadmin/login"
               target="_blank"
               rel="noreferrer"
               className="xl:hidden inline-flex items-center gap-1.5 bg-accent hover:bg-accent/90 text-white px-3 py-2 rounded-lg text-[13px] font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35"
@@ -203,7 +203,7 @@ export default function Navbar() {
               <ArrowRight className="w-3.5 h-3.5" />
             </a>
             <a
-              href="https://tactfreight.net"
+              href="https://tactfreight.net/ciadmin/login"
               target="_blank"
               rel="noreferrer"
               className="hidden xl:inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-white px-5 py-2.5 rounded-lg text-[14px] font-semibold transition-all hover:shadow-lg hover:shadow-accent/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35">
@@ -281,7 +281,7 @@ export default function Navbar() {
 
                 <div className="pt-3 mt-2 border-t border-border">
                   <a
-                  href="https://tactfreight.net"
+                  href="https://tactfreight.net/ciadmin/login"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-center gap-2 bg-accent text-white py-3 rounded-xl font-semibold text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35">
